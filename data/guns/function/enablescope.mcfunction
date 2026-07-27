@@ -1,1 +1,1 @@
-$effect give @s minecraft:slowness 1 $(scope_size) true
+$effect give @s minecraft:slowness infinite $(scope_size) true

@@ -1,0 +1,1 @@
+effect give @s minecraft:slowness infinite 12 true

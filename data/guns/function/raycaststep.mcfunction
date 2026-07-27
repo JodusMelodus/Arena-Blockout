@@ -1,9 +1,9 @@
 
 # Copy current ray steps and check if divisable by 10
-scoreboard players operation #current math = #current ray_steps
-scoreboard players operation #current math %= #divisor temp
+scoreboard players operation #current math_ray_steps = #current ray_steps
+scoreboard players operation #current math_ray_steps %= #divisor temp_ray_steps
 # Display tracer particle if divisable by 10
-execute if score #current math matches 0 run particle minecraft:ash ~ ~ ~ 0 0 0 0 1
+execute if score #current math_ray_steps matches 0 run particle minecraft:ash ~ ~ ~ 0 0 0 0 1
 
 scoreboard players add #current ray_steps 1
 

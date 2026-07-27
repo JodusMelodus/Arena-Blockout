@@ -4,10 +4,10 @@
             "trigger": "minecraft:consume_item",
             "conditions": {
                 "item": {
-                    "items": "minecraft:apple",
+                    "items": "minecraft:potion",
                     "predicates": {
                         "minecraft:custom_data": {
-                            "tag": "reload"
+                            "tag": "magazine"
                         }
                     }
                 }

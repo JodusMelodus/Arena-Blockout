@@ -14,11 +14,6 @@ scoreboard objectives add temp_scope_toggle dummy
 scoreboard players set #divisor temp_ray_steps 5
 scoreboard players set #scope_toggle temp_scope_toggle 2
 
-# Inventory Setup
-clear @a
-give @a minecraft:carrot_on_a_stick[item_model="modern_guns:gun/ak47",custom_data={"tag":"gun", "scope_size": 1},item_name="AK-47"] 1
-give @a minecraft:potion[item_model="modern_guns:ammo/assault_rifle_magazine",custom_data={tag:"magazine", "mag_size":30},item_name="7.62x39mm"] 1
-
 # Team Setup
 team add no_collision
 team modify no_collision collisionRule never

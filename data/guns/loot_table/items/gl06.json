@@ -1,0 +1,27 @@
+{
+    "type": "minecraft:generic",
+    "pools": [
+        {
+            "rolls": 1,
+            "entries": [
+                {
+                    "type": "minecraft:item",
+                    "name": "minecraft:carrot_on_a_stick",
+                    "functions": [
+                        {
+                            "function": "minecraft:set_components",
+                            "components": {
+                                "minecraft:item_model": "modern_guns:gun/gl06_zoom",
+                                "minecraft:item_name": "GL06",
+                                "minecraft:custom_data": {
+                                    "tag": "gun",
+                                    "scope_size": 1
+                                }
+                            }
+                        }
+                    ]
+                }
+            ]
+        }
+    ]
+}

@@ -1,0 +1,27 @@
+{
+    "type": "minecraft:generic",
+    "pools": [
+        {
+            "rolls": 1,
+            "entries": [
+                {
+                    "type": "minecraft:item",
+                    "name": "minecraft:potion",
+                    "functions": [
+                        {
+                            "function": "minecraft:set_components",
+                            "components": {
+                                "minecraft:item_model": "modern_guns:ammo/sniper_rifle_magazine",
+                                "minecraft:item_name": "7.62x39mm",
+                                "minecraft:custom_data": {
+                                    "tag": "magazine",
+                                    "mag_size": 30
+                                }
+                            }
+                        }
+                    ]
+                }
+            ]
+        }
+    ]
+}

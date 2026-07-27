@@ -1,6 +1,10 @@
 {
   "pack": {
-    "pack_format": 48,
-    "description": "GNS starter datapack"
+    "description": "t",
+    "min_format": [
+      107,
+      1
+    ],
+    "max_format": 107
   }
 }

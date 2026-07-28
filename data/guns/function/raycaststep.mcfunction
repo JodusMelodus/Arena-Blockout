@@ -7,7 +7,7 @@ execute if score #current math_ray_steps matches 0 run particle minecraft:ash ~ 
 
 scoreboard players add #current ray_steps 1
 
-execute as @e[type=!item,type=!player,tag=!shoot_temp,dx=0] run function guns:hit_entity
+execute as @e[type=!item,type=!player,tag=!ads_detect,dx=0] run function guns:hit_entity
 
 execute unless block ~ ~ ~ minecraft:air unless block ~ ~ ~ minecraft:cave_air run function guns:hit_block
 

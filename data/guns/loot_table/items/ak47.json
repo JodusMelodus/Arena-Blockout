@@ -15,7 +15,7 @@
                                 "minecraft:item_name": "AK-47",
                                 "minecraft:custom_data": {
                                     "tag": "gun",
-                                    "scope_size": 1
+                                    "scope_size": 255
                                 }
                             }
                         }

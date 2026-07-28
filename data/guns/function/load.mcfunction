@@ -1,7 +1,5 @@
-# Right click
-scoreboard objectives add scope minecraft.used:minecraft.carrot_on_a_stick
-# Left click
-scoreboard objectives add shoot minecraft.custom:minecraft.damage_dealt
+scoreboard objectives add shoot minecraft.used:minecraft.carrot_on_a_stick
+scoreboard objectives add ads minecraft.custom:minecraft.damage_dealt
 
 scoreboard objectives add chamber dummy
 

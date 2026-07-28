@@ -2,6 +2,7 @@
 scoreboard objectives add shoot minecraft.used:minecraft.carrot_on_a_stick
 scoreboard objectives add ads minecraft.custom:minecraft.damage_dealt
 scoreboard objectives add prone minecraft.custom:minecraft.drop
+scoreboard objectives add grenade minecraft.used:minecraft.snowball
 
 scoreboard objectives add chamber dummy
 
@@ -14,3 +15,4 @@ scoreboard players set #scope_toggle temp_scope_toggle 2
 # Team Setup
 team add no_collision
 team modify no_collision collisionRule never
+gamerule minecraft:mob_griefing false

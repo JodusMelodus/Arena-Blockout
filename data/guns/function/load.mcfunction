@@ -1,5 +1,7 @@
+# Input
 scoreboard objectives add shoot minecraft.used:minecraft.carrot_on_a_stick
 scoreboard objectives add ads minecraft.custom:minecraft.damage_dealt
+scoreboard objectives add prone minecraft.custom:minecraft.drop
 
 scoreboard objectives add chamber dummy
 

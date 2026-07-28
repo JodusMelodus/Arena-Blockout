@@ -1,0 +1,1 @@
+fill ~-1 ~1 ~-1 ~1 ~1 ~1 minecraft:white_concrete replace #minecraft:air

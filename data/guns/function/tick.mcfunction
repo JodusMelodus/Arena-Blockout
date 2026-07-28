@@ -6,3 +6,5 @@ execute as @a[scores={shoot=1..}] run function guns:left_click
 
 # ADS
 execute as @a at @s anchored eyes run function guns:ads
+
+execute as @a[scores={prone=1..}] at @s run function guns:prone

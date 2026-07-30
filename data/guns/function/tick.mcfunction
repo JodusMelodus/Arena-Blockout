@@ -2,7 +2,7 @@
 execute as @a if items entity @s weapon.mainhand minecraft:carrot_on_a_stick run title @s actionbar [{"text":"AMMO: ","color":"gold","bold":true},{"score":{"name":"@s","objective":"chamber"},"color":"yellow"}]
 
 # Shoot
-execute as @a[scores={shoot=1..}] run function guns:left_click
+execute as @a[scores={left_click=1..}] run function guns:left_click
 
 # ADS
 execute as @a at @s anchored eyes run function guns:ads

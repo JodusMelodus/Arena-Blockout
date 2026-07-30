@@ -6,7 +6,6 @@ scoreboard objectives add grenade minecraft.used:minecraft.snowball
 
 scoreboard objectives add id dummy
 scoreboard objectives add next_id dummy
-scoreboard objectives setdisplay below_name id
 
 scoreboard objectives add chamber dummy
 

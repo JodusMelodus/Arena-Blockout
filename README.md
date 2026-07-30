@@ -7,6 +7,19 @@ Arena Blockout is a custom Minecraft datapack heavily inspired by the tactical F
 - **Pure Vanilla Integration:** Built purely as a datapack—no mods, external dependencies, or complex client setups required. Easily drag and drop into any existing world.
 - **Tactical Extraction Gameplay:** Built to bring high-stakes gunplay, looting, and survival directly into Minecraft.
 
+### Grenades
+When the player throws a snowball, it is replaced with a tiny lit TNT Sulfur Cube.
+
+### Proning
+When pressing the `Drop Selected Item` key, blocks will be filled above the player to force the player into the swimming/crawling position.
+
+### Reloading
+Right Click whilst holding the magazine to reload your gun.
+
+### Shooting
+Left Click whilst holding the gun to shoot.
+Right Click to toggle ADS. (Buggy)
+
 ## Keybind Setup
 To ensure the controls feel like a true tactical shooter, we **strongly recommend** adjusting your keybinds before playing:
 | Action               | Keybind      |

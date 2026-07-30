@@ -1,0 +1,1 @@
+execute store result score @s id run scoreboard players add #global next_id 1

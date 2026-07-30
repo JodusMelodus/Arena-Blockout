@@ -1,3 +1,3 @@
-playsound minecraft:block.note_block.chime master @a ~ ~ ~ 0.7 1
+playsound minecraft:entity.player.hurt master @s ~ ~ ~ 0.7 1.0
 particle minecraft:damage_indicator ~ ~ ~ 0 0 0 0 1
-damage @s 0 minecraft:player_attack
+damage @s 5.0 minecraft:player_attack

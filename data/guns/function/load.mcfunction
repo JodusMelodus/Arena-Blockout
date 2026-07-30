@@ -4,6 +4,10 @@ scoreboard objectives add ads minecraft.custom:minecraft.damage_dealt
 scoreboard objectives add prone minecraft.custom:minecraft.drop
 scoreboard objectives add grenade minecraft.used:minecraft.snowball
 
+scoreboard objectives add id dummy
+scoreboard objectives add next_id dummy
+scoreboard objectives setdisplay below_name id
+
 scoreboard objectives add chamber dummy
 
 scoreboard objectives add ray_steps dummy

@@ -11,7 +11,7 @@
                         {
                             "function": "minecraft:set_components",
                             "components": {
-                                "minecraft:item_model": "modern_guns:gun/ak47_zoom",
+                                "minecraft:item_model": "arena_blockout:scar_l",
                                 "minecraft:item_name": "AK-47",
                                 "minecraft:custom_data": {
                                     "tag": "gun",

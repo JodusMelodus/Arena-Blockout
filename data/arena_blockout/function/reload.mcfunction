@@ -1,2 +1,2 @@
 execute store result score @s chamber run data get entity @s SelectedItem.components."minecraft:custom_data".mag_size
-execute at @s anchored eyes run playsound music_disc.lava_chicken master @s ~ ~ ~ 1 1
+execute at @s anchored eyes run playsound minecraft:item.armor.equip_copper master @s ~ ~ ~ 1 1

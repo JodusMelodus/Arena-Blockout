@@ -6,6 +6,6 @@ execute store result score @e[type=minecraft:chicken, tag=ads_id, limit=1] id ru
 tag @e[type=minecraft:chicken, tag=ads_id, limit=1] remove ads_id
 
 execute as @s run scoreboard players operation @s ads %= #scope_toggle temp_scope_toggle
-execute store result storage guns:temp scope_size int 1 run data get entity @s SelectedItem.components."minecraft:custom_data".scope_size
-execute as @s if score @s ads matches 0 run function guns:enablescope with storage guns:temp
-execute as @s if score @s ads matches 1 run function guns:disablescope
+execute store result storage arena_blockout:temp scope_size int 1 run data get entity @s SelectedItem.components."minecraft:custom_data".scope_size
+execute as @s if score @s ads matches 0 run function arena_blockout:enablescope with storage arena_blockout:temp
+execute as @s if score @s ads matches 1 run function arena_blockout:disablescope

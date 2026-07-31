@@ -6,17 +6,17 @@
             "entries": [
                 {
                     "type": "minecraft:loot_table",
-                    "value": "guns:items/aa12",
+                    "value": "arena_blockout:items/aa12",
                     "weight": 1
                 },
                 {
                     "type": "minecraft:loot_table",
-                    "value": "guns:items/ak47",
+                    "value": "arena_blockout:items/ak47",
                     "weight": 1
                 },
                 {
                     "type": "minecraft:loot_table",
-                    "value": "guns:items/assault_rifle_magazine",
+                    "value": "arena_blockout:items/assault_rifle_magazine",
                     "weight": 1
                 }
             ]

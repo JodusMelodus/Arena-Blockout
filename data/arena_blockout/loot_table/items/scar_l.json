@@ -12,7 +12,7 @@
                             "function": "minecraft:set_components",
                             "components": {
                                 "minecraft:item_model": "arena_blockout:scar_l",
-                                "minecraft:item_name": "AK-47",
+                                "minecraft:item_name": "SCAR-L",
                                 "minecraft:custom_data": {
                                     "tag": "gun",
                                     "scope_size": 255

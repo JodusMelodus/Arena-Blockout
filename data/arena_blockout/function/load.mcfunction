@@ -8,7 +8,6 @@ scoreboard objectives add id dummy
 scoreboard objectives add next_id dummy
 
 scoreboard objectives add chamber dummy
-
 scoreboard objectives add ray_steps dummy
 
 scoreboard objectives add temp_scope_toggle dummy

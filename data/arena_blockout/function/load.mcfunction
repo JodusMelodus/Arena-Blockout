@@ -6,12 +6,15 @@ scoreboard objectives add grenade minecraft.used:minecraft.snowball
 
 scoreboard objectives add id dummy
 scoreboard objectives add next_id dummy
-
+# Damage of the current shot round
+scoreboard objectives add round_damage dummy
 scoreboard objectives add chamber dummy
 scoreboard objectives add ray_steps dummy
-
 scoreboard objectives add temp_scope_toggle dummy
 
+# Constants
+scoreboard objectives add constants dummy
+scoreboard players set #10 constants 10
 scoreboard players set #scope_toggle temp_scope_toggle 2
 
 # Team Setup

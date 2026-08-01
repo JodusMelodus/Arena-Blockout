@@ -1,0 +1,2 @@
+execute if block ~ ~ ~ #arena_blockout:pierceable run scoreboard players operation @s round_damage /= #10 constants
+execute unless block ~ ~ ~ #arena_blockout:pierceable run scoreboard players set @s ray_steps 2147483647

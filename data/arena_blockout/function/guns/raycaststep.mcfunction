@@ -9,4 +9,4 @@ execute unless block ~ ~ ~ minecraft:air run function arena_blockout:guns/hit_bl
 particle minecraft:ash ~ ~ ~ 0 0 0 0 1
 
 # Gun range is ray steps divided by the amount the ray steps. i.e. 1000 steps with a change of 0.1 will allow 100 blocks
-execute if score @s ray_steps matches ..1000 if block ~ ~ ~ minecraft:air run execute positioned ^ ^ ^0.1 run function arena_blockout:guns/raycaststep
+execute if score @s ray_steps matches ..1000 positioned ^ ^ ^0.1 run function arena_blockout:guns/raycaststep

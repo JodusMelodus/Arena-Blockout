@@ -5,11 +5,11 @@ execute as @a if items entity @s weapon.mainhand minecraft:carrot_on_a_stick run
 execute as @a[scores={left_click=1..}] run function arena_blockout:left_click
 
 # ADS
-execute as @a at @s anchored eyes run function arena_blockout:ads
+execute as @a at @s anchored eyes run function arena_blockout:guns/ads
 
-execute as @a[scores={prone=1..}] at @s run function arena_blockout:prone
+execute as @a[scores={prone=1..}] at @s run function arena_blockout:movement/prone
 
-execute as @a[scores={grenade=1..}] run function arena_blockout:throw_grenade
+execute as @a[scores={grenade=1..}] run function arena_blockout:grenades/throw_grenade
 
 # IDS
 execute as @a unless score @s id matches 1.. run function arena_blockout:assign_id

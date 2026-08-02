@@ -11,6 +11,7 @@ scoreboard objectives add round_damage dummy
 scoreboard objectives add chamber dummy
 scoreboard objectives add ray_steps dummy
 scoreboard objectives add temp_scope_toggle dummy
+scoreboard objectives add head_shot dummy
 
 # Constants
 scoreboard objectives add constants dummy

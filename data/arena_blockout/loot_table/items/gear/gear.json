@@ -14,12 +14,8 @@
                                 "minecraft:item_model": "arena_blockout:gear/gear",
                                 "minecraft:item_name": "Gear",
                                 "minecraft:custom_data": {
-                                    "tag": "gear"
-                                },
-                                "minecraft:custom_model_data": {
-                                    "flags": [
-                                        true
-                                    ]
+                                    "tag": "gear",
+                                    "backpack": 1
                                 }
                             }
                         }

@@ -7,6 +7,8 @@ execute as @a[scores={left_click=1..}] run function arena_blockout:left_click
 # ADS
 execute as @a at @s anchored eyes run function arena_blockout:guns/ads
 
+execute as @a if items entity @s weapon.offhand * run function arena_blockout:gear/equip
+
 execute as @a[scores={prone=1..}] at @s run function arena_blockout:movement/prone
 
 execute as @a[scores={grenade=1..}] run function arena_blockout:grenades/throw_grenade

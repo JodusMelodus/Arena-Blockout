@@ -12,10 +12,13 @@ scoreboard objectives add chamber dummy
 scoreboard objectives add ray_steps dummy
 scoreboard objectives add temp_scope_toggle dummy
 scoreboard objectives add head_shot dummy
+# Gear
+scoreboard objectives add gear_equiped_backpack dummy
 
 # Constants
 scoreboard objectives add constants dummy
 scoreboard players set #10 constants 10
+scoreboard players set #2 constants 2
 scoreboard players set #scope_toggle temp_scope_toggle 2
 
 # Team Setup

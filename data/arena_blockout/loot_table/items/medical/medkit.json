@@ -6,15 +6,15 @@
             "entries": [
                 {
                     "type": "minecraft:item",
-                    "name": "minecraft:snowball",
+                    "name": "minecraft:carrot_on_a_stick",
                     "functions": [
                         {
                             "function": "minecraft:set_components",
                             "components": {
-                                "minecraft:item_model": "arena_blockout:m67",
-                                "minecraft:item_name": "M67",
+                                "minecraft:item_model": "arena_blockout:medical/medkit",
+                                "minecraft:item_name": "Medkit",
                                 "minecraft:custom_data": {
-                                    "tag": "grenade"
+                                    "tag": "medical"
                                 }
                             }
                         }

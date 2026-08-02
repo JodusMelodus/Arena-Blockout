@@ -6,15 +6,17 @@
             "entries": [
                 {
                     "type": "minecraft:item",
-                    "name": "minecraft:carved_pumpkin",
+                    "name": "minecraft:carrot_on_a_stick",
                     "functions": [
                         {
                             "function": "minecraft:set_components",
                             "components": {
-                                "minecraft:item_model": "arena_blockout:56k_helicopter_helmet",
-                                "minecraft:item_name": "56K Helicopter Helmet",
+                                "minecraft:item_model": "arena_blockout:guns/scar_l",
+                                "minecraft:item_name": "SCAR-L",
                                 "minecraft:custom_data": {
-                                    "tag": "helmet"
+                                    "tag": "gun",
+                                    "scope_size": 255,
+                                    "round_damage": 75
                                 }
                             }
                         }

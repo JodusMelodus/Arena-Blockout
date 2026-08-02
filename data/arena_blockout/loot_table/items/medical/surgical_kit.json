@@ -11,11 +11,10 @@
                         {
                             "function": "minecraft:set_components",
                             "components": {
-                                "minecraft:item_model": "arena_blockout:5.56x45mm_magazine",
-                                "minecraft:item_name": "5.56x45mm",
+                                "minecraft:item_model": "arena_blockout:medical/surgical_kit",
+                                "minecraft:item_name": "Surgical Kit",
                                 "minecraft:custom_data": {
-                                    "tag": "magazine",
-                                    "mag_size": 30
+                                    "tag": "medical"
                                 }
                             }
                         }

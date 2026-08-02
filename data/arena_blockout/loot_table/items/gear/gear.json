@@ -6,15 +6,20 @@
             "entries": [
                 {
                     "type": "minecraft:item",
-                    "name": "minecraft:carrot_on_a_stick",
+                    "name": "minecraft:carved_pumpkin",
                     "functions": [
                         {
                             "function": "minecraft:set_components",
                             "components": {
-                                "minecraft:item_model": "arena_blockout:surgical_kit",
-                                "minecraft:item_name": "Surgical Kit",
+                                "minecraft:item_model": "arena_blockout:gear/gear",
+                                "minecraft:item_name": "Gear",
                                 "minecraft:custom_data": {
-                                    "tag": "medical"
+                                    "tag": "gear"
+                                },
+                                "minecraft:custom_model_data": {
+                                    "flags": [
+                                        true
+                                    ]
                                 }
                             }
                         }

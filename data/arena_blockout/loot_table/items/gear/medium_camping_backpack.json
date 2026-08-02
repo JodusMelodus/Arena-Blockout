@@ -6,15 +6,15 @@
             "entries": [
                 {
                     "type": "minecraft:item",
-                    "name": "minecraft:carrot_on_a_stick",
+                    "name": "minecraft:stick",
                     "functions": [
                         {
                             "function": "minecraft:set_components",
                             "components": {
-                                "minecraft:item_model": "arena_blockout:medkit",
-                                "minecraft:item_name": "Medkit",
+                                "minecraft:item_model": "arena_blockout:gear/medium_camping_backpack",
+                                "minecraft:item_name": "Medium Camping Backpack",
                                 "minecraft:custom_data": {
-                                    "tag": "medical"
+                                    "tag": "backpack"
                                 }
                             }
                         }

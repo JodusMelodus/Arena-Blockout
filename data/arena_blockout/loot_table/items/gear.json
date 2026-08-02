@@ -1,0 +1,31 @@
+{
+    "type": "minecraft:generic",
+    "pools": [
+        {
+            "rolls": 1,
+            "entries": [
+                {
+                    "type": "minecraft:item",
+                    "name": "minecraft:carved_pumpkin",
+                    "functions": [
+                        {
+                            "function": "minecraft:set_components",
+                            "components": {
+                                "minecraft:item_model": "arena_blockout:equipment",
+                                "minecraft:item_name": "Gear",
+                                "minecraft:custom_data": {
+                                    "tag": "gear"
+                                },
+                                "minecraft:custom_model_data": {
+                                    "flags": [
+                                        true
+                                    ]
+                                }
+                            }
+                        }
+                    ]
+                }
+            ]
+        }
+    ]
+}

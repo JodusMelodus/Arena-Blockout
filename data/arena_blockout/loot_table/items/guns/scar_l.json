@@ -16,7 +16,8 @@
                                 "minecraft:custom_data": {
                                     "tag": "gun",
                                     "scope_size": 255,
-                                    "round_damage": 75
+                                    "round_damage": 75,
+                                    "red_dot_sight": 1
                                 }
                             }
                         }

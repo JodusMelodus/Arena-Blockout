@@ -1,5 +1,5 @@
 # UI
-execute as @a if items entity @s weapon.mainhand minecraft:carrot_on_a_stick run title @s actionbar [{"text":"AMMO: ","color":"gold","bold":true},{"score":{"name":"@s","objective":"chamber"},"color":"yellow"}]
+execute as @a if items entity @s weapon.mainhand minecraft:stick run title @s actionbar [{"text":"AMMO: ","color":"gold","bold":true},{"score":{"name":"@s","objective":"chamber"},"color":"yellow"}]
 
 # ------------ Interaction Hitbox -----------
 

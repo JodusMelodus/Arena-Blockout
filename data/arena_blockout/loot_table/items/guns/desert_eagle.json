@@ -11,14 +11,14 @@
                         {
                             "function": "minecraft:set_components",
                             "components": {
-                                "minecraft:item_model": "arena_blockout:guns/scar_l",
-                                "minecraft:item_name": "SCAR-L",
+                                "minecraft:item_model": "arena_blockout:guns/desert_eagle",
+                                "minecraft:item_name": "Desert Eagle",
                                 "minecraft:custom_data": {
                                     "tag": "gun",
                                     "ads": 0,
                                     "scope_size": 255,
                                     "round_damage": 75,
-                                    "red_dot_sight": 1
+                                    "red_dot_sight": 0
                                 }
                             }
                         }

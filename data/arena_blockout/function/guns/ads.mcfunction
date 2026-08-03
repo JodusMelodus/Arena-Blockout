@@ -1,9 +1,9 @@
 scoreboard players operation #current id = @s id
-execute as @e[type=minecraft:chicken, tag=ads_detect] if score @s id = #current id run tp @s ~ -300 ~
 
-execute as @s if items entity @s weapon.mainhand minecraft:carrot_on_a_stick[custom_data~{"tag": "gun"}] at @s anchored eyes run summon minecraft:chicken ^ ^-0.1 ^0.3 {Tags:["ads_detect", "ads_id"], Silent:true, NoAI:true, NoGravity:true, Team:no_collision, DeathTime:0, active_effects:[{id:"minecraft:invisibility", duration:9999, show_particles:false}]}
-execute store result score @e[type=minecraft:chicken, tag=ads_id, limit=1] id run scoreboard players get @s id
-tag @e[type=minecraft:chicken, tag=ads_id, limit=1] remove ads_id
+execute as @s unless entity @e[type=minecraft:interaction, tag=ads_detect] if score #current id = @s id run summon minecraft:interaction ^ ^-0.1 ^ {width:0.5, height:0.5, Glowing:false, Tags:["ads_detect"]}
+execute if score #current id = @s id run tp @e[type=minecraft:interaction, tag=ads_detect] ^ ^-0.1 ^
+execute if data entity @e[type=minecraft:interaction, tag=ads_detect, sort=nearest, limit=1] attack run scoreboard players add @s ads 1
+data remove entity @e[type=minecraft:interaction, tag=ads_detect, sort=nearest, limit=1] attack
 
 execute as @s run scoreboard players operation @s ads %= #2 constants
 execute store result storage arena_blockout:temp scope_size int 1 run data get entity @s SelectedItem.components."minecraft:custom_data".scope_size

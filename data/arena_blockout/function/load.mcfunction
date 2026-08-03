@@ -1,5 +1,4 @@
 # Input
-scoreboard objectives add left_click minecraft.used:minecraft.carrot_on_a_stick
 scoreboard objectives add ads dummy
 scoreboard objectives add prone minecraft.custom:minecraft.drop
 scoreboard objectives add grenade minecraft.used:minecraft.snowball

@@ -15,6 +15,7 @@
                                 "minecraft:item_name": "SCAR-L",
                                 "minecraft:custom_data": {
                                     "tag": "gun",
+                                    "ads": 0,
                                     "scope_size": 255,
                                     "round_damage": 75,
                                     "red_dot_sight": 1

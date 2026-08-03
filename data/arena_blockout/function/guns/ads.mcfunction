@@ -5,7 +5,7 @@ execute as @s if items entity @s weapon.mainhand minecraft:carrot_on_a_stick[cus
 execute store result score @e[type=minecraft:chicken, tag=ads_id, limit=1] id run scoreboard players get @s id
 tag @e[type=minecraft:chicken, tag=ads_id, limit=1] remove ads_id
 
-execute as @s run scoreboard players operation @s ads %= #scope_toggle temp_scope_toggle
+execute as @s run scoreboard players operation @s ads %= #2 constants
 execute store result storage arena_blockout:temp scope_size int 1 run data get entity @s SelectedItem.components."minecraft:custom_data".scope_size
 execute as @s if score @s ads matches 0 run function arena_blockout:guns/enablescope with storage arena_blockout:temp
 execute as @s if score @s ads matches 1 run function arena_blockout:guns/disablescope

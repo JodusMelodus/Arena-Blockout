@@ -20,7 +20,6 @@ scoreboard objectives add gear_equiped_helmet dummy
 scoreboard objectives add constants dummy
 scoreboard players set #10 constants 10
 scoreboard players set #2 constants 2
-scoreboard players set #scope_toggle temp_scope_toggle 2
 
 # Team Setup
 team add no_collision

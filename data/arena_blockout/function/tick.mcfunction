@@ -15,11 +15,10 @@ execute as @a at @s anchored eyes if data entity @e[type=minecraft:interaction, 
 data remove entity @e[type=minecraft:interaction, tag=ads_detect, sort=nearest, limit=1] interaction
 
 # ADS
-execute as @a at @s anchored eyes if data entity @e[type=minecraft:interaction, tag=ads_detect, sort=nearest, limit=1] attack run function arena_blockout:guns/ads
+execute as @a at @s anchored eyes if data entity @e[type=minecraft:interaction, tag=ads_detect, sort=nearest, limit=1] attack run function arena_blockout:right_click
 data remove entity @e[type=minecraft:interaction, tag=ads_detect, sort=nearest, limit=1] attack
 
 execute as @a if items entity @s weapon.offhand * run function arena_blockout:gear/equip
 execute as @a[scores={prone=1..}] at @s run function arena_blockout:movement/prone
-execute as @a[scores={grenade=1..}] run function arena_blockout:grenades/throw_grenade
 # IDS
 execute as @a unless score @s id matches 1.. run function arena_blockout:assign_id

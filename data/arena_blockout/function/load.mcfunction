@@ -1,7 +1,6 @@
 # Input
 scoreboard objectives add ads dummy
 scoreboard objectives add prone minecraft.custom:minecraft.drop
-scoreboard objectives add grenade minecraft.used:minecraft.snowball
 
 scoreboard objectives add id dummy
 scoreboard objectives add next_id dummy

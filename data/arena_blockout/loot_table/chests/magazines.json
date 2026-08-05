@@ -1,0 +1,15 @@
+{
+    "type": "minecraft:chest",
+    "pools": [
+        {
+            "rolls": 1,
+            "entries": [
+                {
+                    "type": "minecraft:loot_table",
+                    "value": "arena_blockout:items/magazines/5.56x45mm_magazine",
+                    "weight": 1
+                }
+            ]
+        }
+    ]
+}

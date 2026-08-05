@@ -16,6 +16,9 @@
                                 "minecraft:custom_data": {
                                     "id": "bh_infantry_chest_rig",
                                     "tag": "chest_rig"
+                                },
+                                "equippable": {
+                                    "slot": "chest"
                                 }
                             }
                         }

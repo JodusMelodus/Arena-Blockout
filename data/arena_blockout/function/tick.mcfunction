@@ -1,3 +1,6 @@
+# IDS
+execute as @a unless score @s id matches 1.. run function arena_blockout:assign_id
+
 # UI
 execute as @a if items entity @s weapon.mainhand minecraft:stick run title @s actionbar [{"text":"AMMO: ","color":"gold","bold":true},{"score":{"name":"@s","objective":"chamber"},"color":"yellow"}]
 
@@ -20,5 +23,3 @@ data remove entity @e[type=minecraft:interaction, tag=ads_detect, sort=nearest, 
 
 execute as @a if items entity @s weapon.offhand * run function arena_blockout:gear/equip
 execute as @a[scores={prone=1..}] at @s run function arena_blockout:movement/prone
-# IDS
-execute as @a unless score @s id matches 1.. run function arena_blockout:assign_id

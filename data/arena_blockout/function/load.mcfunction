@@ -10,9 +10,6 @@ scoreboard objectives add chamber dummy
 scoreboard objectives add ray_steps dummy
 scoreboard objectives add temp_scope_toggle dummy
 scoreboard objectives add head_shot dummy
-# Gear
-scoreboard objectives add gear_equiped_backpack dummy
-scoreboard objectives add gear_equiped_helmet dummy
 
 # Constants
 scoreboard objectives add constants dummy

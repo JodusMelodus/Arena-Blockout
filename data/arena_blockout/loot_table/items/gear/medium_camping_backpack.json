@@ -14,6 +14,7 @@
                                 "minecraft:item_model": "arena_blockout:gear/medium_camping_backpack",
                                 "minecraft:item_name": "Medium Camping Backpack",
                                 "minecraft:custom_data": {
+                                    "id": "medium_camping_backpack",
                                     "tag": "backpack"
                                 }
                             }

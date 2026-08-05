@@ -15,9 +15,9 @@
                                 "minecraft:item_name": "Gear",
                                 "minecraft:custom_data": {
                                     "tag": "gear",
-                                    "backpack": 0,
-                                    "helmet": 0,
-                                    "chest_rig": 1
+                                    "backpack": "",
+                                    "helmet": "",
+                                    "chest_rig": ""
                                 }
                             }
                         }

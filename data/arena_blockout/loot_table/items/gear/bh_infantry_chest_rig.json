@@ -14,6 +14,7 @@
                                 "minecraft:item_model": "arena_blockout:gear/bh_infantry_chest_rig",
                                 "minecraft:item_name": "BH Infantry Chest Rig",
                                 "minecraft:custom_data": {
+                                    "id": "bh_infantry_chest_rig",
                                     "tag": "rig"
                                 }
                             }

@@ -6,7 +6,7 @@
             "entries": [
                 {
                     "type": "minecraft:item",
-                    "name": "minecraft:stick",
+                    "name": "minecraft:bundle",
                     "functions": [
                         {
                             "function": "minecraft:set_components",
@@ -15,7 +15,7 @@
                                 "minecraft:item_name": "BH Infantry Chest Rig",
                                 "minecraft:custom_data": {
                                     "id": "bh_infantry_chest_rig",
-                                    "tag": "rig"
+                                    "tag": "chest_rig"
                                 }
                             }
                         }

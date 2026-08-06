@@ -6,7 +6,7 @@
             "entries": [
                 {
                     "type": "minecraft:loot_table",
-                    "value": "arena_blockout:items/magazines/5.56x45mm_magazine",
+                    "value": "arena_blockout:items/magazines/scar_l",
                     "weight": 1
                 }
             ]

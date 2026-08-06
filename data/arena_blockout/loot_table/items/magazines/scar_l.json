@@ -6,16 +6,17 @@
             "entries": [
                 {
                     "type": "minecraft:item",
-                    "name": "minecraft:carrot_on_a_stick",
+                    "name": "minecraft:bundle",
                     "functions": [
                         {
                             "function": "minecraft:set_components",
                             "components": {
-                                "minecraft:item_model": "arena_blockout:magazines/5.56x45mm_magazine",
-                                "minecraft:item_name": "5.56x45mm",
+                                "minecraft:item_model": "arena_blockout:magazines/scar_l",
+                                "minecraft:item_name": "SCAR-L Magazine",
                                 "minecraft:custom_data": {
                                     "tag": "magazine",
-                                    "mag_size": 30
+                                    "mag_size": 30,
+                                    "gun": "scar_l"
                                 }
                             }
                         }

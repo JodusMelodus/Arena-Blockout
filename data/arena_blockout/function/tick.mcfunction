@@ -2,7 +2,7 @@
 execute as @a unless score @s id matches 1.. run function arena_blockout:assign_id
 
 # UI
-execute as @a if items entity @s weapon.mainhand minecraft:stick run title @s actionbar [{"text":"AMMO: ","color":"gold","bold":true},{"score":{"name":"@s","objective":"chamber"},"color":"yellow"}]
+execute as @a if items entity @s weapon.mainhand minecraft:crossbow[custom_data~{"tag": "gun"}] run title @s actionbar [{"text":"AMMO: ","color":"gold","bold":true},{"score":{"name":"@s","objective":"chamber"},"color":"yellow"}]
 
 # ------------ Interaction Hitbox -----------
 

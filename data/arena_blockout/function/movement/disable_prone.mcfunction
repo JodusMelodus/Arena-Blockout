@@ -1,1 +1,1 @@
-fill ~-1 ~1 ~-1 ~1 ~1 ~1 minecraft:air replace #minecraft:concrete
+execute if data entity @s OnGround run fill ~ ~1 ~ ~ ~1 ~ minecraft:air replace minecraft:barrier

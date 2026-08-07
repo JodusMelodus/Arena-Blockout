@@ -11,7 +11,7 @@
                         {
                             "function": "minecraft:set_components",
                             "components": {
-                                "minecraft:item_model": "arena_blockout:guns/scar_l",
+                                "minecraft:item_model": "arena_blockout:guns/scar_l/scar_l",
                                 "minecraft:item_name": "SCAR-L",
                                 "minecraft:custom_data": {
                                     "tag": "gun",
@@ -19,7 +19,7 @@
                                     "round_damage": 75,
                                     "suppressor": "flash_suppressor",
                                     "magazine": 1,
-                                    "sight": "iron_sight"
+                                    "sight": ""
                                 },
                                 "minecraft:charged_projectiles": [],
                                 "minecraft:tooltip_display": {

@@ -15,7 +15,8 @@
                                 "minecraft:item_name": "56K Helicopter Helmet",
                                 "minecraft:custom_data": {
                                     "id": "56k_helicopter_helmet",
-                                    "tag": "helmet"
+                                    "tag": "helmet",
+                                    "type": "gear"
                                 }
                             }
                         }

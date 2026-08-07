@@ -6,7 +6,7 @@
             "entries": [
                 {
                     "type": "minecraft:loot_table",
-                    "value": "arena_blockout:items/guns/scar_l",
+                    "value": "arena_blockout:items/guns/scar_l/scar_l",
                     "weight": 1
                 }
             ]

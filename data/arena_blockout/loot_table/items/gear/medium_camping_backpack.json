@@ -15,7 +15,8 @@
                                 "minecraft:item_name": "Medium Camping Backpack",
                                 "minecraft:custom_data": {
                                     "id": "medium_camping_backpack",
-                                    "tag": "backpack"
+                                    "tag": "backpack",
+                                    "type": "gear"
                                 }
                             }
                         }

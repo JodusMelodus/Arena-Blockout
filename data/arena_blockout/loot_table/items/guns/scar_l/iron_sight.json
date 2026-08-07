@@ -6,20 +6,17 @@
             "entries": [
                 {
                     "type": "minecraft:item",
-                    "name": "minecraft:bundle",
+                    "name": "minecraft:stick",
                     "functions": [
                         {
                             "function": "minecraft:set_components",
                             "components": {
-                                "minecraft:item_model": "arena_blockout:gear/bh_infantry_chest_rig",
-                                "minecraft:item_name": "BH Infantry Chest Rig",
+                                "minecraft:item_model": "arena_blockout:guns/scar_l/iron_sight",
+                                "minecraft:item_name": "SCAR-L Iron Sight",
                                 "minecraft:custom_data": {
-                                    "id": "bh_infantry_chest_rig",
-                                    "tag": "chest_rig",
-                                    "type": "gear"
-                                },
-                                "equippable": {
-                                    "slot": "chest"
+                                    "tag": "sight",
+                                    "id": "iron_sight",
+                                    "type": "attachment"
                                 }
                             }
                         }

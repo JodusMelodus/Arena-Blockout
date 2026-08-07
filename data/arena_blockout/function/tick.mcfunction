@@ -21,5 +21,5 @@ data remove entity @e[type=minecraft:interaction, tag=ads_detect, sort=nearest, 
 execute as @a at @s anchored eyes if data entity @e[type=minecraft:interaction, tag=ads_detect, sort=nearest, limit=1] attack run function arena_blockout:right_click
 data remove entity @e[type=minecraft:interaction, tag=ads_detect, sort=nearest, limit=1] attack
 
-execute as @a if items entity @s weapon.offhand * run function arena_blockout:gear/equip
+execute as @a if items entity @s weapon.offhand * run function arena_blockout:input/equip
 execute as @a[scores={prone=1..}] at @s run function arena_blockout:movement/prone

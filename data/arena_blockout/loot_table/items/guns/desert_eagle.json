@@ -6,7 +6,7 @@
             "entries": [
                 {
                     "type": "minecraft:item",
-                    "name": "minecraft:stick",
+                    "name": "minecraft:crossbow",
                     "functions": [
                         {
                             "function": "minecraft:set_components",
@@ -15,11 +15,14 @@
                                 "minecraft:item_name": "Desert Eagle",
                                 "minecraft:custom_data": {
                                     "tag": "gun",
-                                    "ads": 0,
                                     "scope_size": 255,
-                                    "round_damage": 75,
-                                    "red_dot_sight": 0,
-                                    "silencer": 1
+                                    "round_damage": 75
+                                },
+                                "minecraft:charged_projectiles": [],
+                                "minecraft:tooltip_display": {
+                                    "hidden_components": [
+                                        "minecraft:charged_projectiles"
+                                    ]
                                 }
                             }
                         }

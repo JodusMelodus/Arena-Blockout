@@ -6,10 +6,10 @@ execute as @a run title @s actionbar [{"text":"AMMO: ","color":"gold","bold":tru
 
 # ------------ Interaction Hitbox -----------
 
-scoreboard players operation #current id = @s id
-
+execute as @a run scoreboard players operation #current id = @s id
 execute as @a at @s anchored eyes unless entity @e[type=minecraft:interaction, tag=ads_detect] if score #current id = @s id run summon minecraft:interaction ~ ~1.0 ~ {width:1.8, height:1.8, Tags:["ads_detect"]}
-execute as @a at @s anchored eyes if score #current id = @s id run tp @e[type=minecraft:interaction, tag=ads_detect] ~ ~1.0 ~
+execute as @a unless score @s prone matches 1 run function arena_blockout:input/interaction
+execute as @a if score @s prone matches 1 run function arena_blockout:input/interaction_prone
 
 # -------------------------------------------
 

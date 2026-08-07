@@ -1,0 +1,1 @@
+execute if score #current id = @s id at @s anchored eyes run tp @e[type=minecraft:interaction, tag=ads_detect] ~ ~ ~

@@ -1,2 +1,0 @@
-execute store result score @s chamber run data get entity @s SelectedItem.components."minecraft:custom_data".mag_size
-execute at @s anchored eyes run playsound arena_blockout:reload master @s ~ ~ ~ 1 1

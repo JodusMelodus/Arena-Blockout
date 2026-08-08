@@ -1,0 +1,2 @@
+execute store result score @s magazine_size run data get entity @s SelectedItem.components."minecraft:custom_data".mag_size
+execute if score @s chamber < @s magazine_size run function arena_blockout:guns/reload/reload

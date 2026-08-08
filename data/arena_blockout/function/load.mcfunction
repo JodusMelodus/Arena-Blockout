@@ -8,6 +8,7 @@ scoreboard objectives remove chamber
 scoreboard objectives remove ray_steps
 scoreboard objectives remove head_shot
 scoreboard objectives remove constants
+scoreboard objectives remove magazine_size
 team remove no_collision
 
 # Input
@@ -21,6 +22,7 @@ scoreboard objectives add round_damage dummy
 scoreboard objectives add chamber dummy
 scoreboard objectives add ray_steps dummy
 scoreboard objectives add head_shot dummy
+scoreboard objectives add magazine_size dummy
 
 # Constants
 scoreboard objectives add constants dummy

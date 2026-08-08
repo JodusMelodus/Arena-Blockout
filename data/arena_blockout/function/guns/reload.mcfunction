@@ -1,2 +1,2 @@
 execute store result score @s chamber run data get entity @s SelectedItem.components."minecraft:custom_data".mag_size
-execute at @s anchored eyes run playsound minecraft:item.armor.equip_netherite master @s ~ ~ ~ 1 0.8
+execute at @s anchored eyes run playsound arena_blockout:reload master @s ~ ~ ~ 1 1

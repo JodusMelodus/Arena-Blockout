@@ -1,0 +1,27 @@
+{
+    "type": "minecraft:generic",
+    "pools": [
+        {
+            "rolls": 1,
+            "entries": [
+                {
+                    "type": "minecraft:item",
+                    "name": "minecraft:stick",
+                    "functions": [
+                        {
+                            "function": "minecraft:set_components",
+                            "components": {
+                                "minecraft:item_model": "arena_blockout:ammo/5.56x45mm_round",
+                                "minecraft:item_name": "5.56x45mm",
+                                "minecraft:custom_data": {
+                                    "tag": "bullet"
+                                },
+                                "minecraft:max_stack_size": 30
+                            }
+                        }
+                    ]
+                }
+            ]
+        }
+    ]
+}

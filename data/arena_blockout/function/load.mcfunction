@@ -9,11 +9,16 @@ scoreboard objectives remove ray_steps
 scoreboard objectives remove head_shot
 scoreboard objectives remove constants
 scoreboard objectives remove magazine_size
+scoreboard objectives remove has_interaction
 team remove no_collision
+kill @e[type=minecraft:interaction]
 
 # Input
 scoreboard objectives add ads dummy
 scoreboard objectives add prone minecraft.custom:minecraft.drop
+
+scoreboard objectives add has_interaction dummy
+scoreboard players set @a has_interaction 0
 
 scoreboard objectives add id dummy
 scoreboard objectives add next_id dummy

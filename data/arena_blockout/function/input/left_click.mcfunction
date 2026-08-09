@@ -1,4 +1,5 @@
 # @s - player
+data remove entity @e[type=minecraft:interaction, tag=ads_detect, sort=nearest, limit=1] interaction
 
 execute if items entity @s weapon.mainhand minecraft:crossbow[custom_data~{"tag": "gun"}] run execute if score @s chamber matches 0 run playsound arena_blockout:empty master @s ~ ~ ~ 1 1
 execute if items entity @s weapon.mainhand minecraft:crossbow[custom_data~{"tag": "gun"}] run execute if score @s chamber matches 1.. at @s anchored eyes run function arena_blockout:guns/shoot

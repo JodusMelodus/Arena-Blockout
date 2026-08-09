@@ -20,7 +20,8 @@
                                 },
                                 "equippable": {
                                     "slot": "chest"
-                                }
+                                },
+                                "minecraft:max_stack_size": 1
                             }
                         }
                     ]

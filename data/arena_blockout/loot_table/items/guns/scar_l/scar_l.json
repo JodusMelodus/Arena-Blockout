@@ -16,7 +16,7 @@
                                 "minecraft:custom_data": {
                                     "tag": "gun",
                                     "scope_size": 255,
-                                    "round_damage": 75,
+                                    "round_damage": 10,
                                     "suppressor": "flash_suppressor",
                                     "magazine": 1,
                                     "sight": ""
@@ -26,8 +26,10 @@
                                     "hidden_components": [
                                         "minecraft:charged_projectiles"
                                     ]
-                                }
+                                },
+                                "minecraft:max_stack_size": 1
                             }
+                    
                         }
                     ]
                 }

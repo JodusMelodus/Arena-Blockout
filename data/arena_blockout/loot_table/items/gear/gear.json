@@ -18,7 +18,8 @@
                                     "backpack": "",
                                     "helmet": "",
                                     "chest_rig": ""
-                                }
+                                },
+                                "minecraft:max_stack_size": 1
                             }
                         }
                     ]

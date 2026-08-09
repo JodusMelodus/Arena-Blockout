@@ -15,7 +15,8 @@
                                 "minecraft:item_name": "M67",
                                 "minecraft:custom_data": {
                                     "tag": "grenade"
-                                }
+                                },
+                                "minecraft:max_stack_size": 1
                             }
                         }
                     ]

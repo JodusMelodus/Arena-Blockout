@@ -14,7 +14,8 @@
                                 "minecraft:item_model": "arena_blockout:grenades/m84_stun_grenade",
                                 "minecraft:item_name": "M84 Stun Grenade",
                                 "minecraft:custom_data": {
-                                    "tag": "grenade"
+                                    "tag": "grenade",
+                                    "id": "m84_stun_grenade"
                                 },
                                 "minecraft:max_stack_size": 1
                             }

@@ -14,7 +14,8 @@
                                 "minecraft:item_model": "arena_blockout:grenades/m67",
                                 "minecraft:item_name": "M67",
                                 "minecraft:custom_data": {
-                                    "tag": "grenade"
+                                    "tag": "grenade",
+                                    "id": "m67"
                                 },
                                 "minecraft:max_stack_size": 1
                             }

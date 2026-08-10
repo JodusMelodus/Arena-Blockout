@@ -17,5 +17,8 @@ execute as @a at @s anchored eyes if data entity @e[type=minecraft:interaction, 
 # ADS
 execute as @a at @s anchored eyes if data entity @e[type=minecraft:interaction, tag=ads_detect, sort=nearest, limit=1] attack run function arena_blockout:input/right_click
 
+# Kill flashbangs
+execute as @e[type=minecraft:sulfur_cube, tag=grenade, nbt={"fuse":0}] at @s run function arena_blockout:grenades/flashbang
+
 execute as @a if items entity @s weapon.offhand * run function arena_blockout:input/equip
 execute as @a[scores={prone=1..}] at @s run function arena_blockout:movement/prone
